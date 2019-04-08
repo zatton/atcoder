@@ -8,7 +8,6 @@ int main() {
   }
   int k;
   cin >> k;
-  sort(ant.begin(), ant.end());
   if(ant.at(4) - ant.at(0) <= k){
     cout << "Yay!" << endl;
     return 0;
